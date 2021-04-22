@@ -1,0 +1,10 @@
+@font-face {
+    font-family: Clear Sans; /* Название шрифта */
+    src: url(../fonts/clearsans.ttf); /* Путь к файлу со шрифтом */
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Clear ';
+}
