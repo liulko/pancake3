@@ -1,0 +1,191 @@
+@font-face {
+    font-family: clear sans; /* название шрифта */
+    src: url(../fonts/clearsanslight.ttf); /* путь к файлу со шрифтом */
+}
+
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'clear sans', sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.order {
+    background-image: url("../img/order_background.png");
+    height: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+.content {
+    max-width: 1148px;
+}
+
+.order__title {
+    padding: 135px 0 31px 0;
+}
+
+hr {
+    width: 120px;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+.order__subtitle {
+    padding: 15px 0 27px 0;
+}
+
+.order__button span {
+    background-color: #1ab0ce;
+    font-size: 18px;
+    border-radius: 2px;
+    padding: 12px 22px 15px 22px;
+}
+
+.order__button {
+    padding-bottom: 141px;
+}
+
+.order__button a {
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.about {
+    color: #3a4047;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.about__title {
+    padding: 32px 0 15px 0;
+}
+
+.about__subtitle {
+    padding: 13px 0 34px 0;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.header__container {
+    display: flex;
+    width: 1148px;
+    justify-content: space-between;
+    padding: 17px 0 12px 0;
+}
+
+.header__text {
+    width: 375px;
+    text-align: center;
+}
+
+.header__account {
+    position: relative;
+}
+
+.header__account a {
+    text-decoration: underline;
+    color: #3a4047;
+}
+
+.header__account:before {
+    content: url("../img/icons/user.svg");
+    position: absolute;
+    left: -25px;
+}
+
+.header__contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90%;
+}
+
+.header__contacts-email a {
+    text-decoration: underline;
+    color: #3a4047;
+}
+
+.header__contacts-phones {
+    position: relative;
+}
+
+.header__contacts-phones span {
+    display: flex;
+    align-items: center;
+}
+
+.header__contacts-phones span img {
+    padding: 0 0 0 5px;
+}
+
+.header__contacts-phones span:before {
+    content: url("../img/icons/phone.svg");
+    position: absolute;
+    left: -30px;
+
+}
+
+.header__contacts-phones img {
+
+}
+
+.header__contacts-phones-list {
+    position: absolute;
+    list-style: none;
+    background-color: #fff;
+    padding: 15px 0 15px 30px;
+    opacity: 0;
+    border-radius: 5px;
+    width: 190px;
+    text-align: center;
+    top: 41px;
+    left: -45px;
+    box-shadow: 2px 2px 10px black ;
+}
+.header__contacts-phones-list li:not(:last-child) {
+    padding: 0 0 10px 0;
+}
+#header__contacts-phones-list-id1:before{
+    content: url("../img/icons/vodafone.png");
+    position: absolute;
+    left: 10px;
+ }
+
+#header__contacts-phones-list-id2:before {
+    content: url("../img/icons/kyivstar.png");
+    position: absolute;
+    left: 10px;
+}
+
+#header__contacts-phones-list-id3:before {
+    content: url("../img/icons/lifecell.png");
+    position: absolute;
+    left: 10px;
+}

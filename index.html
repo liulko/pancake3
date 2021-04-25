@@ -1,22 +1,81 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.scss">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <img src="img/logo.svg" alt="logo">
-        <h3>Качественная оперативная цифровая, широкоформатная и сувенирная полиграфия!</h3>
+<div class="header">
+    <div class="header__container">
+        <img class="header__logo" src="img/logo.svg" alt="logo">
+        <div class="header__text">
+            <p>Качественная оперативная цифровая, широкоформатная и сувенирная полиграфия!<br>
+                Работаем с 9 до 18, вс и сб выходные</p>
+        </div>
+        <div class="header__account">
+            <a href="#">Личный кабинет</a>
+        </div>
+        <div class="header__contacts">
+            <div class="header__contacts-email">
+                <a href="mailto:asodasjf.sa">maket@test-vertka.ua</a>
+            </div>
+            <div class="header__contacts-phones">
+                <span>(098) 123-45-67 <img id="phone-chevron" src="img/icons/chevron-bottom.svg"
+                                           alt="chevron-bottom"></span>
 
+                <ul class="header__contacts-phones-list" id="header__contacts-phones-list-id0">
+                    <li id="header__contacts-phones-list-id1">(099) 123-45-67</li>
+                    <li id="header__contacts-phones-list-id2">(098) 123-45-67</li>
+                    <li id="header__contacts-phones-list-id3">(097) 123-45-67</li>
+                </ul>
 
-    </header>
-    <div class="footer">
-
+            </div>
+        </div>
+        <div class="header__shopping-cart">
+            <img src="img/shopping-cart.svg" class="header__shopping-cart-image" alt="cart">
+        </div>
     </div>
+</div>
 
+
+<div class="order">
+    <div class="content">
+        <div class="order__title">
+            <h1>Оперативная печать полиграфии от 1 дня!</h1>
+        </div>
+        <hr>
+        <div class="order__subtitle">
+            <h2>Доставка в любой город Украины</h2>
+        </div>
+        <div class="order__button">
+            <a href="#"><span>Сделать заказ</span></a>
+        </div>
+    </div>
+</div>
+
+<div class="about">
+    <div class="content">
+        <div class="about__title">
+            <h1>О нас</h1>
+        </div>
+        <div class="about__subtitle">
+            <h2>Оперативная печать полиграфии от 1 дня!</h2>
+        </div>
+        <div class="about__text">
+            <p>Перед долгим заплывом намажьтесь солнцезащитным кремом. Вода не спасает от вредного излучения, оно
+                проникает и на глубину 1 м. Прежде чем отправиться на пляж, съешьте что-нибудь солененькое или выпейте
+                чай с лимоном. Считается, что тем самым вы предотвратите потерю важных минеральных веществ, которые
+                покидают тело вместе с потом, а загар при этом ляжет ровнее. Находясь на солнце, следует больше
+                двигаться — плавать, делать гимнастику, играть в мяч и т.д. Лучше ходить босиком, чем в тапочках. Не
+                рекомендуется покрывать ногти лаком, пусть они отдохнут и получат солнечные лучи и воздух.</p>
+        </div>
+    </div>
+</div>
+<div class="footer">
+</div>
+<script src="js/phones-list.js"></script>
 </body>
 </html>
